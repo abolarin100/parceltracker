@@ -50,7 +50,7 @@
 .container form .inputbox input,
 .container form .inputbox select {
     width: 100%;
-    padding: 10px;
+    padding: 10px 0px;
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, .3);
     color: #444;
@@ -58,11 +58,12 @@
 
 .container form .flexbox {
     display: flex;
-    gap: 15px;
+    gap: 5px;
 }
 
 .container form .flexbox .inputbox {
     flex: 1 1 150px;
+    width: 60%;
 }
 
 .container form .submit-btn {
@@ -87,10 +88,30 @@
    
     .container {
       height: 10vh; 
-      max-width: 10vw ;
+      max-width: 60vw ;
     }
 
+    .container form .inputbox input,
+.container form .inputbox select {
+    width: 90%;
+    padding: 10px 0px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, .3);
+    color: #444;
+}
+
+.container form {
+    
+    padding: 15px;
+    width: 200px;
+}
+
+.container form .flexbox .inputbox {
+    flex: 1 1 100px;
+    width: 10px;
+}
+
     .container form {
-        width: 100%;
+        width: 95vw;
     }
   }
