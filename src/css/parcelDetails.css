@@ -39,6 +39,7 @@ body {
     background-color: rgb(60, 106, 123); 
     color: white; 
     border: none;
+    margin: 7px;
     border-radius: 4px;
     padding: 10px 20px;
     cursor: pointer;
@@ -60,6 +61,7 @@ body {
    
     .container {
       max-width: 90%; 
+      height: 30%;
     }
   }
   
