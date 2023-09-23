@@ -1,0 +1,65 @@
+body {
+    --color-primary: royalblue;
+    --color-primary-dark: rgb(27, 44, 96);
+    --color-secondary: #;
+    --color-error: #cc3333;
+    --color-success: #4bb544;
+    --border-radius: 4px;
+}
+   
+
+.div {
+    margin: 0;
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background: var(--color-primary);
+
+}
+  
+  .container {
+    text-align: center;
+    background-color: rgb(196, 212, 218); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px; 
+    width: 90%; 
+  }
+  
+  
+  label {
+    font-weight: bold;
+  }
+  
+ 
+  button {
+    background-color: rgb(60, 106, 123); 
+    color: white; 
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: rgb(94, 169, 181);
+    color: black;
+  }
+  
+  
+  p {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+   
+    .container {
+      max-width: 90%; 
+    }
+  }
+  
