@@ -35,7 +35,7 @@ const Payment = () => {
             </div>
             <div className="flexbox">
                 <div className="inputbox">
-                    <span>expiration date</span>
+                    <span>exp date</span>
                     <input type="text" maxLength="5" />
                 </div>
                 <div className="inputbox">
