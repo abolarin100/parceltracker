@@ -87,6 +87,10 @@
    
     .container {
       height: 10vh; 
-      width:80% ;
+      max-width: 30vw ;
+    }
+
+    .container form {
+        width: 100%;
     }
   }
