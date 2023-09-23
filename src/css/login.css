@@ -83,7 +83,7 @@ body {
 
 .form__input {
     display: block;
-    width: 100%;
+    width: 90%;
     padding: 0.75rem;
     box-sizing: border-box;
     border-radius: var(--border-radius);
@@ -110,7 +110,7 @@ body {
 }
 
 .form__button {
-    width: 100%;
+    width: 90%;
     padding: 0.5rem 2rem;
     font-weight: bold;
     font-size: 1.1rem;
