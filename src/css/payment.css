@@ -20,7 +20,7 @@
 }
 
 .container {
-    height: 40vh;
+    height: 30vh;
     
     background: royalblue;
     display: flex;
@@ -81,3 +81,11 @@
     letter-spacing: 2px;
     opacity: .8;
 }
+
+
+@media screen and (max-width: 600px) {
+   
+    .container {
+      height: 10vh; 
+    }
+  }
