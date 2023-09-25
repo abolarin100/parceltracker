@@ -63,7 +63,7 @@ body {
   @media screen and (min-width: 400px) and (max-width: 768px) {
 
     .div {
-      background-size: 600px 750px contain;
+      background-size: 600px 750px ;
     }
    
     .container {
