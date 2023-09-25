@@ -60,7 +60,7 @@ body {
   }
   
   
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 768px) {
 
     .div {
       background-size:cover;
