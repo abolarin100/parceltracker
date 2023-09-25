@@ -14,7 +14,7 @@ function ParcelDetails() {
     };
 
     const handleButtonClick = () => {
-        
+
         navigate('/track-parcel', { state: { scheduledDate } });
     };
 
@@ -22,6 +22,10 @@ function ParcelDetails() {
         const newTrackingId = Math.floor(Math.random() * 1000000).toString();
         setTrackingId(newTrackingId);
     };
+
+
+    localStorage.setItem(trackingId, JSON.stringify({ scheduledDate }));
+
 
     return (
         <section className="div">
