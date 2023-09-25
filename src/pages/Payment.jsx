@@ -11,7 +11,7 @@ const Payment = () => {
         navigate('/parcel-details');
       };
     return (
-       <div className='div'>
+       <div className='divs'>
 
        <section className='container'>
         

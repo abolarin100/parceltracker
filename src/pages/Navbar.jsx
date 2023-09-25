@@ -14,7 +14,7 @@ const Navbar = () => {
       <header className="header">
         <nav className="navbar">
           <div className="logo">
-            <h1>M-bd</h1>
+            <h1><Link to='/'>M-bd</Link></h1>
           </div>
           <ul className={`nav-links ${menuVisible ? 'show' : ''}`}>
             <li><Link to="/">Home</Link></li>

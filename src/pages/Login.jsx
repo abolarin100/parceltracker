@@ -23,7 +23,7 @@ const Login = () => {
   };
 
   return (
-    <div className='div'>
+    <div className='dev'>
       <form className="form" id="login" onSubmit={handleSubmit}>
         <h1 className="form__title">Login</h1>
         {errorMessage && (

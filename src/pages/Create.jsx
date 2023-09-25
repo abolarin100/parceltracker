@@ -24,7 +24,7 @@ const Create = () => {
   };
 
   return (
-    <div className='div'>
+    <div className='dev'>
       <form className="form" id="createAccount" onSubmit={handleSubmit}>
         <h1 className="form__title">Create Account</h1>
         <div className="form__message form__message--error"></div>

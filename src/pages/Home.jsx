@@ -12,7 +12,7 @@ function Home() {
   return (
     <div className="homepage">
       
-      <section className="hero">
+      <section className="hero image">
         <div className="hero-content">
           <h1>Welcome to Multi-Bag Deliveries</h1>
           <p>Track your parcels and schedule deliveries with ease.</p>

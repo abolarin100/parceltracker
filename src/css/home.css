@@ -56,8 +56,26 @@ nav {
     
 }
 
+.image {
+    width: 300px; /* Adjust the container size as needed */
+    height: 200px; /* Adjust the container size as needed */
+    background-size: cover;
+    background-position: center;
+    animation: shuffle 12s infinite; /* Adjust the animation duration as needed */
+  }
+  
+  @keyframes shuffle {
+    0%, 100% {
+      background-image: url('../images/hero5.jpg');
+    }
+    60% {
+      background-image: url('../images/hero6.jpg');
+    }
+  }
+  
+
 .hero {
-    background-image: url('../images/homeimg.png');
+    background-image: url('../images/hero5.jpg');
     background-size:cover;
     background-position: center;
     color: #fff;
