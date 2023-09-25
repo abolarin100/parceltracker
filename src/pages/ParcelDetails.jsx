@@ -26,7 +26,6 @@ function ParcelDetails() {
     return (
         <section className="div">
             <div className='container'>
-                <h1>Tracking App</h1>
 
                 <div>
                     <button onClick={generateTrackingId}>Generate Tracking ID</button>
