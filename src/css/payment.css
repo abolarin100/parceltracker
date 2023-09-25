@@ -126,6 +126,15 @@
   @media screen and (min-width: 400px) and (max-width: 768px) {
 
     .divs {
+      background-size:820px 800px contain ;
+    
+    }
+   
+    
+  }
+  @media screen and (min-width: 769px) and (max-width: 980px) {
+
+    .divs {
       background-size:cover;
     }
    
