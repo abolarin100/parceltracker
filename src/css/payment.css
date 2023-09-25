@@ -126,17 +126,11 @@
   @media screen and (min-width: 400px) and (max-width: 768px) {
 
     .divs {
-      background-size:600px 800px  ;
+        background-image: url('../images/pay3.jpg');
+      background-size:cover ;
     
     }
    
     
   }
-  @media screen and (min-width: 769px) and (max-width: 980px) {
-
-    .divs {
-      background-size:cover;
-    }
-   
-    
-  }
+  
