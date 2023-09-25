@@ -16,7 +16,7 @@ function Home() {
         <div className="hero-content">
           <h1>Welcome to Multi-Bag Deliveries</h1>
           <p>Track your parcels and schedule deliveries with ease.</p>
-          <Link to="payment" className="cta-button">Get Started</Link>
+          <Link to="login" className="cta-button">Get Started</Link>
         </div>
       </section>
 

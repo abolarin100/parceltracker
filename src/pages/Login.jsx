@@ -18,7 +18,7 @@ const Login = () => {
     } else {
       // You can add your login logic here
       // If login is successful, you can redirect the user to another page
-      navigate('/');
+      navigate('/payment');
     }
   };
 
@@ -54,7 +54,7 @@ const Login = () => {
         </div>
         <button className="form__button" type="submit">Login</button>
         <p className="form__text">
-          <Link className='form__link' to="/">Sign in as guest</Link>
+          <Link className='form__link' to="/payment">Sign in as guest</Link>
         </p>
         <p className="form__text">
           <Link className="form__link" to="/create" id="linkCreateAccount">

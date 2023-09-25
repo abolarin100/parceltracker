@@ -31,7 +31,7 @@ function TrackParcel() {
                     <>
                         <h2>Delivery Date View</h2>
                         <p>Delivery Date: {scheduledDateFromState ? scheduledDateFromState.toLocaleDateString() : 'N/A'}</p>
-                        <Link to="/">Back to Tracking App</Link>
+                        <Link to="/">Back to Homepage</Link>
                     </>
                 ) : (
                     <>
